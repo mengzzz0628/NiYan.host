@@ -35,6 +35,7 @@ my $authroot= sub {
 };
 
 get '/auth/index.html' =>  $authroot;
+get '/index.html' =>  $authroot;
 get '/auth/index' =>  $authroot;
 get '/auth/' =>  $authroot;
 
