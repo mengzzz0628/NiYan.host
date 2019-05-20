@@ -6,7 +6,17 @@
 <p>HTML links are defined with the a tag:</p>
 
 <a href="/auth/index">This is a link</a>
+<div class="panel-body"><form action="https://www.paypal.com/cgi-bin/webscr" class="form-signin" id="paypal" target="_blank" enctype="multipart/form-data" method="post" accept-charset="utf-8">
 
+    <input type="hidden" name="cmd" value="_xclick">
+    <input name="business" type="hidden" value="ucha.director@gmail.com" />
+    <input name="item_name" type="hidden" value="Room and Board payment" />
+    <input name="currency_code" type="hidden" value="USD" />
+  
+    <br />
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>
+  
 </body>
 </html>
 
